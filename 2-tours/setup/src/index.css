@@ -205,6 +205,7 @@ main {
   font-size: 1rem;
   cursor: pointer;
   padding-left: 0.25rem;
+  outline: none;
 }
 .tour-price {
   color: var(--clr-primary-5);
@@ -225,4 +226,306 @@ main {
   border: 1px solid var(--clr-red-dark);
   padding: 0.25rem 0.5rem;
   border-radius: var(--radius);
+}
+
+/*
+my code for styling...
+*/
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+/* .animatedloader {
+  background: white;
+    width: 60px;
+    height: 60px;
+    position: relative;
+    animation-name: animate2;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+} */
+
+.animatedloader {
+  background: white;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    animation-name: animate1;
+    /* animation-duration: 2s; */
+    animation-duration: 800ms;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    /* justify-content: center; */
+    margin-left:-220px;
+}
+
+.animatedloader2 {
+  background: red;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  animation-name: loaderanimation1;
+  /* animation-duration: 2s; */
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  /* justify-content: center; */
+  margin-left:10px;
+  /* margin-top: 40px; */
+}
+
+.animatedloader3 {
+  background: red;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  animation-name: loaderanimation2;
+  /* animation-duration: 2s; */
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  /* justify-content: center; */
+  margin-left:10px;
+  /* margin-top: 40px; */
+}
+
+.animatedloader4 {
+  background: red;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  animation-name: loaderanimation3;
+  /* animation-duration: 2s; */
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  /* justify-content: center; */
+  margin-left:10px;
+  /* margin-top: 40px; */
+}
+
+.animatedloader5 {
+  background: red;
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+  position: relative;
+  animation-name: loaderanimation4;
+  /* animation-duration: 2s; */
+  animation-duration: 800ms;
+  animation-iteration-count: infinite;
+  animation-fill-mode: forwards;
+  /* justify-content: center; */
+  margin-left:10px;
+  /* margin-top: 40px; */
+}
+
+.loader {
+  /* margin-left: -150px; */
+}
+
+@keyframes animate1 {
+  0% {
+    left: 160px;
+    top: 40px;
+    background-color: rgba(13, 56, 52, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  25% {
+    left: 180px;
+    top: 40px;
+    background-color: red;
+    border-radius: 50% 50% 50% 50%;
+  }
+  50% {
+    left: 200px;
+    top: 40px;
+    background-color: green;
+    border-radius: 50% 50% 50% 50%;
+  }
+  75% {
+    left: 220px;
+    top: 40px;
+    background-color: blue;
+    border-radius: 50% 50% 50% 50%;
+  }
+  100% {
+    left: 240px;
+    top: 40px;
+    background-color: rgba(13, 56, 52, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+}
+
+@keyframes animate2 {
+  0% {
+    left: 160px;
+    top: 20px;
+    background-color:  rgb(220, 235, 11);
+    border-radius: 0 0 0 0;
+  }
+  25% {
+    left: 200px;
+    top: 20px;
+    background-color: red;
+    border-radius: 50% 0 0 0;
+  }
+  50% {
+    left: 200px;
+    top: 60px;
+    background-color: green;
+    border-radius: 50% 50% 0 0;
+  }
+  75% {
+    left: 160px;
+    top: 60px;
+    background-color: blue;
+    border-radius: 50% 50% 50% 0;
+  }
+  100% {
+    left: 160px;
+    top: 20px;
+    background-color: rgb(220, 235, 11);
+    border-radius: 50% 50% 50% 50%;
+  }
+}
+
+@keyframes loaderanimation1 {
+  0% {
+    /* left: 160px; */
+    top: 60px;
+    background-color: rgba(108, 223, 211, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  25% {
+    /* left: 180px; */
+    top: 40px;
+    background-color: rgba(108, 223, 211, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  50% {
+    /* left: 200px; */
+    top: 40px;
+    background-color: rgba(108, 223, 211, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  75% {
+    /* left: 220px; */
+    top: 40px;
+    background-color: rgba(108, 223, 211, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  100% {
+    /* left: 240px; */
+    top: 60px;
+    background-color: rgba(108, 223, 211, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+}
+
+@keyframes loaderanimation2 {
+  0% {
+    /* left: 160px; */
+    top: 40px;
+    background-color: rgba(70, 201, 188, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  25% {
+    /* left: 180px; */
+    top: 60px;
+    background-color: rgba(70, 201, 188, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  50% {
+    /* left: 200px; */
+    top: 40px;
+    background-color: rgba(70, 201, 188, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  75% {
+    /* left: 220px; */
+    top: 40px;
+    background-color: rgba(70, 201, 188, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  100% {
+    /* left: 240px; */
+    top: 40px;
+    background-color: rgba(70, 201, 188, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+}
+
+@keyframes loaderanimation3 {
+  0% {
+    /* left: 160px; */
+    top: 40px;
+    background-color: rgba(39, 148, 137, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  25% {
+    /* left: 180px; */
+    top: 40px;
+    background-color: rgba(39, 148, 137, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  50% {
+    /* left: 200px; */
+    top: 60px;
+    background-color: rgba(39, 148, 137, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  75% {
+    /* left: 220px; */
+    top: 40px;
+    background-color: rgba(39, 148, 137, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  100% {
+    /* left: 240px; */
+    top: 40px;
+    background-color: rgba(39, 148, 137, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+}
+
+@keyframes loaderanimation4 {
+  0% {
+    /* left: 160px; */
+    top: 40px;
+    background-color: rgba(19, 99, 91, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  25% {
+    /* left: 180px; */
+    top: 40px;
+    background-color: rgba(19, 99, 91, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  50% {
+    /* left: 200px; */
+    top: 40px;
+    background-color: rgba(19, 99, 91, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  75% {
+    /* left: 220px; */
+    top: 60px;
+    background-color: rgba(19, 99, 91, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
+  100% {
+    /* left: 240px; */
+    top: 40px;
+    background-color: rgba(19, 99, 91, 0.651);
+    border-radius: 50% 50% 50% 50%;
+  }
 }

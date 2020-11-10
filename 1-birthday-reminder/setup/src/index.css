@@ -154,11 +154,16 @@ main {
   text-transform: none;
   margin-bottom: 2rem;
 }
+.underline {
+  border-bottom: #06281e;
+}
 .person {
   display: grid;
   grid-template-columns: auto 1fr;
   column-gap: 0.75rem;
   margin-bottom: 1.5rem;
+  padding-bottom: 10px;
+  border-bottom:solid 1px #ccdfd9;
   align-items: center;
 }
 .person img {
@@ -174,6 +179,7 @@ main {
 .person p {
   margin-bottom: 0;
 }
+
 .container button {
   color: var(--clr-white);
   display: block;
@@ -188,4 +194,51 @@ main {
   border-radius: var(--radius);
   outline: 1px solid rgba(242, 138, 178, 0.8);
   cursor: pointer;
+}
+
+
+/*
+my set of class definitions for styling
+*/
+
+.flexcontainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.container .addbutton {
+  /* color: var(--clr-white); */
+  color: rgba(231, 9, 9, 0.911);
+  display: block;
+  /* float: right; */
+  width: 20%;
+  background: var(--clr-white);
+  text-transform: capitalize;
+  font-size: 1.3rem;
+  margin-right: -20px;
+  margin-top: -5px;
+  margin-bottom: 30px;
+  letter-spacing: var(--spacing);
+  border-radius: var(--radius);
+  cursor: pointer;
+  outline: none;
+  transition: all 1s ease-in-out;
+}
+
+.container .addbutton:hover {
+  /* background: rgb(255, 56, 56); */
+  background: rgb(126, 50, 226);
+  /* background: rgb(185, 61, 243); */
+  color: var(--clr-white);
+  border-radius: 50%;
+  /* margin-right: 10px; */
+  margin-bottom: 10px;
+  height: 50px;
+  width: 50px;
+
+  /*
+  .person.selected {
+
+  }
+  */
 }
