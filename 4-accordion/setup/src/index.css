@@ -209,4 +209,5 @@ main {
   cursor: pointer;
   margin-left: 1rem;
   align-self: center;
+  outline: none;
 }
