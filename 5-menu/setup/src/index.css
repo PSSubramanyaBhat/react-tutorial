@@ -173,6 +173,8 @@ Menu
   cursor: pointer;
   transition: var(--transition);
   border-radius: var(--radius);
+  outline: none ;
+  outline-color: var(--clr-gold);
 }
 .filter-btn:hover {
   background: var(--clr-gold);
